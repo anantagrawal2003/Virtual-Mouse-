@@ -2,9 +2,8 @@
 
 # Gesture Controlled Virtual Mouse &nbsp;[![](https://img.shields.io/badge/python-3.8.5-blue.svg)](https://www.python.org/downloads/) [![platform](https://img.shields.io/badge/platform-windows-green.svg)](https://github.com/xenon-19/Gesture_Controller) 
 
-Gesture Controlled Virtual Mouse makes human computer interaction simple by making use of Hand Gestures and Voice Commands. The computer requires almost no direct contact. All i/o operations can be virtually controlled by using static and dynamic hand gestures along with a voice assistant. This project makes use of the state-of-art Machine Learning and Computer Vision algorithms to recognize hand gestures and voice commands, which works smoothly without any additional hardware requirements. It leverages models such as CNN implemented by [MediaPipe](https://github.com/google/mediapipe) running on top of pybind11. It consists of two modules: One which works direct on hands by making use of MediaPipe Hand detection, and other which makes use of Gloves of any uniform color. Currently it works on Windows platform.
+Using voice commands and hand gestures, Virtual Mouse simplifies human-computer interaction. Nearly no physical contact is necessary with the computer. Static and dynamic hand motions combined with a voice assistant can essentially control any i/o activity. Modern machine learning and computer vision algorithms are used in this project to identify voice commands and hand gestures. It functions flawlessly without the need for extra hardware. It makes use of models like CNN, which are built on top of pybind11 by [MediaPipe](https://github.com/google/mediapipe). It is divided into two modules: one uses MediaPipe Hand detection to work directly on hands, while the other uses gloves of any uniform colour. It is currently compatible with the Windows operating system.
 
- _Video Demonstration: [link](https://www.youtube.com/watch?v=ufm6tfgo-OA&ab_channel=Proton)_<br>
 Note: Use Python version: 3.8.5
 
 # Features
